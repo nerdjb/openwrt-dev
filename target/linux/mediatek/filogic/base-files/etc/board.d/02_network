@@ -208,12 +208,15 @@ mediatek_setup_interfaces()
 	comfast,cf-wr632ax-ubi|\
 	comfast,cf-wr632ax-ubootmod|\
 	huasifei,ws1610-ubi|\
+	huasifei,ws1610-transition|\
 	keenetic,kn-3911|\
 	smartrg,sdg-8622|\
 	smartrg,sdg-8632|\
 	smartrg,sdg-8733a|\
 	yuncore,ax835)
 		ucidef_set_interfaces_lan_wan lan wan
+		;;
+	huasifei,ws1610-converter)
 		;;
 	keenetic,kn-1812|\
 	netcraze,nc-1812)
